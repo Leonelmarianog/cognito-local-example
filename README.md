@@ -22,8 +22,6 @@ pool-list:create # Create an user pool
 
 | Variable                      | Description                                                                                                                                             |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| AWS_COGNITO_POOL_LIST_ID      | AWS Cognito user pool ID. Can be retrieved from `.cognito/db/local_[POOL_LIST_ID].json`.                                                                |
-| AWS_COGNITO_CLIENT_ID         | AWS Cognito user pool client ID. Can be retrieved from `.cognito/db/clients.json`. Each client is made for an specific user pool.                       |
 | AWS_COGNITO_REGION            | Physical location in the world where Amazon clusters data centers for application and service delivery in AWS. Can be any value using a local emulator. |
 | AWS_COGNITO_ACCESS_KEY_ID     | AWS Access key for making programmatic calls to the AWS SDK. Can be any value using a local emulator.                                                   |
 | AWS_COGNITO_SECRET_ACCESS_KEY | AWS Secret access key for making programmatic calls to the AWS SDK. Can be any value using a local emulator.                                            |
