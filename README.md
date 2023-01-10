@@ -29,6 +29,18 @@ pool-list:create # Create an user pool
 | AWS_COGNITO_SECRET_ACCESS_KEY | AWS Secret access key for making programmatic calls to the AWS SDK. Can be any value using a local emulator.                                            |
 | AWS_COGNITO_ENDPOINT          | Entry point for the AWS Cognito service. It should point to the local emulator.                                                                         |
 
+## Common Questions
+
+```
+Q: From where do I get my user pool id?
+A: It can be retrieved from .cognito/db/local_[POOL_LIST_ID].json.
+```
+
+```
+Q: From where do I get my client id?
+A: It can be retrieved from .cognito/db/clients.json. Each client is made for an specific user pool.
+```
+
 # Useful documentation
 
 - Amazon Cognito documentation: https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html
